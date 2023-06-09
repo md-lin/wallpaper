@@ -1,5 +1,6 @@
 import requests
 import time
+from wallpaper import Wallpaper
 
 api_key = '09118d9f8d6629d10ca73bfece254da6'
 
@@ -27,7 +28,8 @@ elif sunrise - 900 < curr_time < sunrise + 900:
     print()
 elif sunrise + 900 <= curr_time <= sunset - 1800:
     #set wallpaper to daytime
-    print()
+    Wallpaper.setWallpaper(Wallpaper, Wallpaper.wallpapers["TOKYO"])
+    print("set daytime")
 elif sunset - 1800 < curr_time < sunset + 1800:
     #set wallpaper to daytime
     print()

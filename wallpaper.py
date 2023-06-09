@@ -4,7 +4,7 @@ import ctypes
 
 class Wallpaper:
 
-    wallpaper_dict = {"TOKYO": r'C:\Users\Melissa\Pictures\wallpapers\lofi aesthetic\tokyo street\tokyo street day.jpg',
+    wallpapers = {"TOKYO": r'C:\Users\Melissa\Pictures\wallpapers\lofi aesthetic\tokyo street\tokyo street day.jpg',
                       "VIOLET": r'C:\Users\Melissa\Pictures\wallpapers\landscapes\violet evergarden.png'}
 
     def __init__(self):
