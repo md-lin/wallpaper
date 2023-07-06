@@ -2,7 +2,7 @@ import requests
 import time
 from wallpaper import Wallpaper
 
-api_key = '09118d9f8d6629d10ca73bfece254da6'
+api_key = open(r"apikey.txt","r")
 
 weather_data = requests.get(
     f"https://api.openweathermap.org/data/2.5/weather?q=Vancouver&APPID={api_key}")
